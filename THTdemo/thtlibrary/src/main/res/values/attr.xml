@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImTextView">
+        <!--圆角半径-->
+        <attr name="circleRadius" format="dimension" />
+        <!--左边三角 还是右边三角-->
+        <attr name="AngleLocation"  >
+            <enum name="Left" value="1" />
+            <enum name="Right" value="2" />
+            <enum name="Gone" value="3" />
+        </attr>
+        <!--三角距离顶部位置-->
+        <attr name="anglePaddingTop" format="dimension" />
+        <!--三角宽度-->
+        <attr name="Corner_Mark_Width" format="dimension" />
+        <!--三角高度-->
+        <attr name="Corner_Mark_Height" format="dimension"/>
+        <!--背景颜色-->
+        <attr name="Background_Color" format="color" />
+    </declare-styleable>
+</resources>
