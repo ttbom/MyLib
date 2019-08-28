@@ -12,6 +12,7 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.blankj.utilcode.util.LogUtils;
 import com.example.thtlibrary.R;
 
 
@@ -58,6 +59,7 @@ public class ImTextView extends android.support.v7.widget.AppCompatTextView {
     }
 
     private void initData(Context context, AttributeSet attrs) {
+        LogUtils.e("11");
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.ImTextView);
         mCircleRadius = typedArray.getDimensionPixelOffset(R.styleable.ImTextView_circleRadius, 10);
         mAngleLocation = typedArray.getInt(R.styleable.ImTextView_AngleLocation, 1);
