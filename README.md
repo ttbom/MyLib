@@ -10,5 +10,5 @@ allprojects {
   
 Step 2. Add the dependency
 dependencies {
-	        implementation 'com.github.ttbom:MyLib:v1.0.0'
+	        implementation 'com.github.ttbom:MyLib:v1.0.3'
 	}
